@@ -1,0 +1,121 @@
+*{
+	margin:0;
+}
+
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 1.5;
+	background-color: black;
+}
+footer{
+	text-align: center;
+	color: yellow;
+}
+header{
+	position: sticky;
+	top: 0;
+	background-color: black;
+}
+main{
+	background-color: white;
+	color: #021F59;
+	width: 95%;
+	margin-left: 40px;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: justify;
+}
+
+nav{
+	color: yellow;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+}
+
+h1{
+	color: red;
+}
+
+h2{
+	color: red;
+	padding-top: 10px;
+}
+
+h3, h5{
+	color: rgb(153, 153, 0);
+}
+
+button{
+	background-color: red;
+	color: yellow;
+	border: solid red;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 800;
+	border-radius: 10px;
+}
+
+input{
+	border-bottom: solid 3px rgb(71, 71, 71);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 100%;
+}
+#cadastro{
+	text-align: center;
+}
+
+#dados_usuario{
+	text-align: center;
+	font-size: 20px;
+}
+#formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#logo{
+	height: 100%;
+	width: 15%;
+}
+
+#div_efeitos{
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+}
+
+#menu_horizontal{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	list-style: none;
+	width: 90%;
+}
+
+#menu_vertical{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	list-style: none;
+	width: 90%;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a{
+	color: yellow;
+	text-decoration: none;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+		html{
+			margin: 0px;
+		}
+
+		body{
+			background-color: #FFF0F5;
+			text-align: center;
+			margin:  30px;
+		}
+
+		div.header{
+			background-color: #F08080;
+			padding: 10px;
+		}
+		h1{
+			font-family: Corbel, Arial;
+			color: #E0FFFF;
+			font-size: 50px;
+		}
+		ul{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		ul li:hover{
+			background: #FFDEAD;
+		}
+		div.calculo{
+			font-family: Corbel, Arial;
+			color: #CD5C5C;
+			font-size: 20px;
+		}
+		.formularioPeso{
+			font-family: Corbel, Arial;
+			color: #CD5C5C;
+			font-size: 20px;
+		}
+
+		div.resposta{
+			font-family: Corbel, Arial;
+			color: #B22222;
+			font-size: 18px;
+		}

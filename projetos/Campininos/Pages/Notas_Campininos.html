@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title> Campininos </title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+
+
+</head>
+
+<body>
+
+<a href="Index.htm"><img src="../Imagens/logotipo.png" class="logo" alt=""> </a>
+
+<header class="titulo1">
+
+<div class="titulo2">
+
+	<a href="Escola_Campininos.htm"> A Escola </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#link2"> Infantil </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#link3"> Fundamental </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Alimentacao_Campininos.html"> Alimentação </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Mensalidades_Campininos.html"> Mensalidades </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Notas_Campininos.html"> Central de Notas </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Contato_Campininos.html"> Contato </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+</header>
+
+<div class="notas" id="notas">
+
+<h2 id="link6"> Central de Notas </h2>
+
+<p> As médias finais dos alunos do ensino fundamental são baseadas nas quatro notas finais recebidas nos respectivos bimestres. Para verificar se o aluno está aprovado ou reprovado, basta inserir os dados abaixo.</p>
+
+<p>Para aprovação a nota mínima é 6.0, caso o aluno atinja entre 5 e 5.9 será enviado diretamente para a recuperação. Caso a média de nota seja inferior a 5.0, o aluno está automáticamente reprovado. </p>
+
+</div>
+
+
+<form name="FormNotas" action="" method="post" class="formularioNotas">
+	Insira o nome completo do aluno: <input type="text" name="nomeC" /> <br />
+	Insira a nota final do 1º Bimestre: <input type="text" name="nota1" /> <br />
+	Insira a nota final do 2º Bimestre: <input type="text" name="nota2" /> <br />
+	Insira a nota final do 3º Bimestre: <input type="text" name="nota3" /> <br />
+	Insira a nota final do 4º Bimestre: <input type="text" name="nota4" /> <br />
+
+	<input type="button" name="btn_concatena" value="Verificar" onclick="verificaNotaFinal()" />
+	<input type="reset" name="btn_cancela" value="Cancelar" onclick="apagarTudo()" />
+</form>
+
+<script type="text/javascript" src="jquery-3.6.0.min.js">
+	
+</script>
+
+<script type="text/javascript" src="Notas.js">
+	
+</script>
+
+<div class="notas" id="notasjs">
+
+</div>
+
+<hr>
+
+<p class="final"> Campininos&reg; Escola de Ensino Infantil e Fundamental 2021 - Todos os direitos reservados. By <a href="https://www.facebook.com/yasmine.plln/" target="_blank" style="color: black">Yasmine Pallin. </a></p>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> "Jogo da velha" </title>
+	<style>
+
+		body{ 
+		background-color: #F5F5F5;
+		margin: 20px 20px 20px 20px;
+		}
+
+
+		p {
+			font-family: Tw Cen MT, Corbel, Arial;
+			text-align: justify;
+			color: black;
+			margin: 10px 80px 10px 80px
+			}
+
+		p.final {
+			font-family: Rockwell Condensed, Corbel, Arial;
+			color: #FF1493; 
+			text-align: center;
+			margin: 0px;
+		}
+
+		ul {
+		font-family: Candara, Corbel, Arial;
+		text-align: justify;
+		color: black;
+		margin: 10px 80px 10px 80px;
+			}
+
+		ul.nomeul {
+			margin: 10px;
+		}
+
+		h2 {
+			font-family: Rockwell Condensed, Corbel, Arial;
+			background-color: #2F4F4F; 
+			text-align: center;
+			color: #FFDEAD;
+			}
+
+		h4 {
+			font-family: Rockwell Condensed, Corbel, Arial; 
+			text-align: left;
+			color: #696969;
+			font-weight: bolder;
+			}
+
+
+		h1{
+			font-family: Rockwell Condensed, Corbel, Arial;
+			background-color: #2F4F4F; 
+			text-align: center;
+			color: #FFDEAD;
+			}
+		
+		img {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+
+			}
+	
+		header{
+			font-family: Rockwell Condensed, Corbel, Arial;
+			background-color: #2F4F4F; 
+			text-align: center;
+			color: #FFDEAD;
+			}
+		a:link, a:visited {
+			color: #FFDEAD;
+			text-decoration: none;
+			font-size: 25px;
+		}
+
+		a:hover {
+		text-decoration: underline; 
+		color: white;
+		}
+
+		a:active {
+		text-decoration: none
+		}
+
+</style>
+
+</head>
+
+<body>
+<header>
+	<h1> Conheça tudo sobre o famoso Jogo da Velha </h1>
+	<a href="#capitulo1"> História </a>
+	<a href="#capitulo2"> Estratégias </a>
+	<a href="#capitulo3"> Como jogar </a>
+	<a href="#capitulo4"> Vamos jogar! </a>
+	<a href="#capitulo5"> Referências </a>
+
+
+</header>
+
+	<h2 id="capitulo1"> História </h2>
+
+	<p> É um jogo e/ou passatempo popular. É um jogo de regras extremamente simples, que não traz grandes dificuldades para seus jogadores e é facilmente aprendido. A origem é desconhecida, com indicações de que pode ter começado no antigo Egito, onde foram encontrados tabuleiros esculpidos na rocha, que teriam mais de 3.500 anos. De alguma forma, é um jogo "aparentado" dos "Merels" (ver Marel).</p>
+
+	<p> Algumas lendas urbanas contam que o jogo terá nascido em Portugal, na cidade de Almada no ano 545. No entanto, só foi popularizado no ano 1500, pelo descobridor Pedro Álvares Cabral, que adorava jogar este jogo durante as suas viagens. Álvares Cabral terá decidido que este jogo seria o primeiro a ser ensinado ao povo indígena no Brasil.</p>
+
+	<p> O jogo pode ser jogado sobre um tabuleiro ou mesmo sendo riscado sobre um pedaço de papel ou mesa. O menor tabuleiro do mundo foi feito com DNA. </p>
+
+	<img src="https://super.abril.com.br/wp-content/uploads/2018/07/jogo_da_velha_-_tic_tac_toe.png" height="120" width="120">
+
+	<h2 id="capitulo2"> Estratégias </h2>
+
+	<p> Analisando o número de possibilidades de forma simplista, existem 362.880 (ou 9!) maneiras de se dispor a cruz e o círculo no tabuleiro, sem considerar jogadas vencedoras. Quando consideramos as combinações vencedoras, existem 255.168 jogos possíveis. Assumindo que 'X' inicia o jogo (se considerar que 'O' inicia, os resultados passam a ser inversos), temos: </p>
+<ul>
+	<li> 131.184 jogos finalizados são ganhos por 'X'
+	<ul class="nomeul"><li> 1.440 são ganhos por 'X' após 5 movimentos </li>
+	<li> 47.952 são ganhos por 'X' após 7 movimentos </li>
+	<li> 81.792 são ganhos por 'X' após 9 movimentos </li></ul></li>
+
+	<li> 77.904 jogos finalizados são ganhos por 'O'
+	<ul class="nomeul"><li> 5.328 são ganhos por 'O' após 6 movimentos </li>
+	<li> 72.576 são ganhos por 'O' após 8 movimentos </li>
+	<li> 46.080 jogos finalizados resultam em empate </li> </ul> </li>
+</ul>
+<br />
+
+	<p> Ignorando jogadas simétricas (outras jogadas rotacionadas ou refletidas), existem apenas 138 resultados únicos. Assumindo novamente que 'X' sempre inicia o jogos, temos: </p>
+<ul>
+	<li> 91 resultados únicos são ganhos por 'X' </li>
+	<li> 21 são ganhos por 'X' após 5 movimentos </li>
+	<li> 58 são ganhos por 'X' após 7 movimentos </li>
+	<li> 12 são ganhos por 'X' após 9 movimentos </li>
+	<li> 44 resultados únicos são ganhos por 'O' </li>
+	<li> 21 são ganhos por 'O' após 6 movimentos </li>
+	<li> 23 são ganhos por 'O' após 8 movimentos </li>
+	<li> 3 resultados únicos são empates </li>
+</ul>
+
+	<h2 id="capitulo3"> Como jogar </h2>
+
+	<p> Se os dois jogadores jogarem sempre da melhor forma, o jogo terminará sempre em empate. A lógica do jogo é muito simples, de modo que não é difícil deduzir ou decorar todas as possibilidades para efetuar a melhor jogada - apesar de o número total de possibilidades ser muito grande, a maioria delas é simétrica, além de que as regras são simples. Por esse motivo, é muito comum que o jogo empate (ou "dê velha"). Um jogador pode facilmente jogar um jogo perfeito seguindo as seguintes regras,por ordem de prioridade:</p>
+
+
+	<p> Em geral, é melhor jogar no centro e em seguida nos cantos pois há maior possibilidade de bloquear ou vencer.</p>
+	<br />
+	<p>1. Ganhar: Se você tem duas peças numa linha, ponha a terceira.</p>
+	<p>2. Bloquear: Se o oponente tiver duas peças em linha, ponha a terceira para bloqueá-lo.</p>
+	<p>3. Triângulo: Crie uma oportunidade em que você poderá ganhar de duas maneiras.</p>
+	<p>4. Bloquear o Triângulo do oponente:
+	Opção 1: Crie 2 peças em linha para forçar o oponente a se defender, contanto que não resulte nele criando um triângulo ou vencendo. Por exemplo, se 'X' tem dois cantos opostos do tabuleiro e 'O' tem o centro, 'O' não pode jogar num canto (Jogar no canto nesse cenário criaria um triângulo em que 'X' vence).
+	Opção 2: Se existe uma configuração em que o oponente pode formar um triângulo, bloqueiem-no.</p>
+	<p>5. Centro: Jogue no centro.</p>
+	<p>6. Canto vazio: jogue num canto vazio. </p>
+	<br />
+	<p> Em suma, a não ser em condições especiais, o jogador deve ter preferência pela posição central, seguida pelos cantos, seguidos pelas bordas.</p>
+
+	<h2 id="capitulo4"> Vamos jogar! </h2>
+
+<table border="1">
+	<tr>
+		<td>X</td>
+		<td>X</td>
+		<td>O</td>
+	</tr>
+	<tr>
+		<td>O</td>
+		<td>X</td>
+		<td>O</td>
+	</tr>
+	<tr>
+		<td>O</td>
+		<td>X</td>
+		<td>O</td>
+	</tr>
+</table>
+</table>
+
+	<h2 id="capitulo5"><a href="https://pt.wikipedia.org/wiki/Jogo_da_velha"> Referências </a></h2>
+<hr>
+	<p class="final"> By Yasmine Pallin&reg; 08/04/2021.</p>
+
+</body>
+
+</html>

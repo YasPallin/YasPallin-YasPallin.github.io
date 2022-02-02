@@ -1,0 +1,248 @@
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(../Fonte/SourceSansPro-Light.ttf);
+}
+
+
+a{
+	color: white;
+}
+
+body{
+	background-color: #e7e5e5;
+	font-family: SourceSansPro-Light;
+
+}
+
+header{
+	background-color: transparent;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+
+footer{
+	background-color: #fa7a78;
+	padding-top: 1%;
+}
+
+footer p, footer h5{
+	font-size: clamp(0.7rem, 0.9vw, 1.5rem);
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+}
+footer a:hover{
+	color: #414141;
+}
+
+footer ul{
+	margin-bottom: 0;
+}
+
+nav{
+	font-size: clamp(1rem, 1.3vw, 2rem);
+
+}
+
+.flex_rodape{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 700;
+	font-size: clamp(0.8rem, 1.1vw, 1.5rem);
+	text-align: center;
+}
+
+.img_cartoes{
+	height: 6vh;
+	width: 10vh;
+	border: 2px solid rgb(122, 122, 122);
+	border-radius: 5px;
+}
+
+.img_joias_produtos{
+	height: 25vh;
+	width: 100%;
+}
+
+.img_menu_produtos{
+	height: 20vh;
+	width: 28vh;
+	border-radius: 5px;
+}
+
+.links_menu_inicial span{
+	color: rgb(48, 48, 48);
+	font-size: 2.8vh;
+	font-weight: 900;
+}
+
+.links_menu_inicial span:hover{
+	color: rgb(255, 255, 255);
+
+}
+
+a:hover, a:visited, a:active{
+	text-decoration: none;
+}
+
+
+.lista_contatos{
+	list-style: none;
+}
+
+.lista_redes {
+	list-style: none;
+	text-decoration: none;
+	 display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.banners_finais{
+	width: 100%;
+}
+.btn_comprar{
+	border: #ffbab9 solid 3px;
+	color: #3a3a3a;
+	text-align: center;
+}
+
+.btn_comprar:hover{
+	border: #ffbab9 solid 3px;
+	background-color: #ffbab9;
+	color: #3a3a3a;
+	text-align: center;
+}
+
+.navbar .nav-item .dropdown-menu {
+	display: none;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+	display: block;
+}
+
+.navbar .nav-item .dropdown-menu {
+	margin-top: 0;
+}
+
+.principal_atendimento{
+	font-size: clamp(1.2rem, 2.3vh, 2rem);
+	line-height: 1.8;
+	padding: 1.5%;
+	color: #474747;
+}
+.principal_atendimento h3{
+	font-size: clamp(1.0rem, 2.5vh, 3rem);
+	color: #D97777;
+	font-weight: 900;
+	text-align: center;
+}
+.principal_atendimento h2{
+	font-size: clamp(1.2rem, 3.5vh, 5rem);
+	color: #ec5151;
+	font-weight: 900;
+	text-align: center;
+}
+
+.principal_sobre{
+	font-size: clamp(1.2rem, 2.3vh, 2rem);
+	line-height: 1.8;
+	padding: 1.5%;
+	color: #474747;
+}
+.principal_sobre h1{
+	font-size: clamp(1.0rem, 4.1vh, 5rem);
+	color: #D97777;
+	font-weight: 900;
+	text-align: center;
+}
+.principal_sobre h2{
+	font-size: clamp(1.2rem, 3.5vh, 5rem);
+	color: #D97777;
+	font-weight: 900;
+}
+#anuncio_descubra{
+	font-size: clamp(1.2rem, 3.8vh, 5rem);
+	color: #cc4e4e;
+	font-weight: 900;
+	text-align: center;
+}
+
+#anuncio_fotos{
+	font-size: clamp(1.2rem, 6.5vh, 6.5rem);
+	color: #cc4e4e;
+}
+#anuncio_frete{
+	background-color: #736E6E;
+	color: white;
+	font-size: 3.0vh;
+	padding: 0.5%;
+}
+
+#anuncio_design{
+	font-size: 3.5vh;
+	padding: 1.5%;
+	border-radius: 20px;
+}
+
+#descubra{
+	text-decoration: none;
+	color: #cc4e4e;
+}
+
+#form_cadastro{
+	margin-top: 12vh;
+	margin-bottom: 12vh;
+	line-height: 2;
+	padding: 3%;
+}
+
+#form_login{
+	margin-top: 12vh;
+	margin-bottom: 22vh;
+	padding: 3%;
+	line-height: 2;
+}
+
+#img_design_joia{
+	border-radius: 25px;
+}
+
+#img_quem_somos{
+	height: 55vh;
+}
+#img_quem_somos2{
+	height: 55vh;
+}
+
+
+#input_pesquisa{
+	font-size: 1rem;
+}
+#logo{
+	width: 20vh;
+}
+
+
+#section_global{
+	background-color: #e5f3f1;
+}
+
+#seta_topo{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border: none;
+}
+
+#setinha{
+	height: 7vh;
+
+}

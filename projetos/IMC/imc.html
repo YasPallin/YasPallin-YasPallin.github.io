@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title> Cálculo de IMC Simples </title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+<div class="header">
+<h1> Calculando meu IMC </h1>
+</div>
+
+<div class="calculo">
+	<p> O Índice de Massa Corporal é um cálculo para medir se a pessoa está ou não dentro do seu peso ideal, utilizando apenas a sua altura e peso. O cálculo é simples e ajuda o médico e/ou nutricionista a entender melhor o quadro do paciente. </p>
+	<p> É importante saber que este número é apenas uma base para tratamentos, não deve ser levado como verdade absoluta sem um acompanhamento médico. Caso ainda tenha dúvidas, procure sempre um especialista para auxiliar. </p>
+</div>
+
+<div class="add">
+
+	<form name="FormPeso" action="" method="post" class="formularioPeso">
+		Altura: <input type="text" name="altura" /> <br />
+		Peso: <input type="text" name="peso" /> <br />
+	</form>
+
+<br />
+
+<input type="button" name="calcular" value="Calcular" onclick="calculaPeso()" />
+
+</div>
+
+<br />
+
+<div class="resposta" id="resposta">
+</div>
+
+<script type="text/javascript" src="peso.js">
+	
+</script>
+
+</body>
+
+</html>
